@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+
+}
+
+.main_picture{
+    position: absolute;
+    width: 1240px;
+    height: 697px;
+    left: 200px;
+    top: 0px;
+    background: url(image.png);
+    transform: scale(0.8);
+}
+
+input[type="checkbox"]{
+    position: relative;
+    width: 35px;
+    height: 20px;
+    appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    transition: .5s;
+    box-shadow: inset 0 0 5px rgba( 0, 0, 0, .2);
+}
+
+input:checked[type="checkbox"]{
+    background: #004DFE;
+}
+
+input[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    top: 0;
+    left: 0;
+    background: #f3f3f3;
+    transform: scale(0.8);
+    transition: .5s;
+}
+
+input:checked[type="checkbox"]::before{
+    left: 15px;
+}
+
+.features{
+    width: 100%;
+    height: 350px;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    bottom: -80px;
+}
+
+.gray_title1{
+    font-size: 20px;
+    color: #707070;
+    margin-left: 700px;
+}
+
+.energy{
+    margin-top: 40px;
+    margin-left: -120px;
+    font-size: 45px;
+}
+
+.gray_title2{
+    font-size: 20px;
+    color: #707070;
+    position: absolute;
+    right: 700px;
+}
+
+.price{
+    margin-top: 40px;
+    margin-left: 280px;
+    font-size: 45px;
+    width: 100px;
+}
+
+.gray_title3{
+    font-size: 15px;
+    color: #707070;
+    position: absolute;
+    left: 290px;
+    top: 150px;
+}
+
+.speed{
+    margin-top: 180px;
+    margin-left: -1000px;
+    font-size: 45px;
+}
+
+.up{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 180px;
+    left: 470px;
+    cursor: pointer;
+}
+
+.down{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 210px;
+    left: 470px;
+    cursor: pointer;
+}
+
+.gray_title4{
+    font-size: 15px;
+    color: #707070;
+    position: absolute;
+    left: 650px;
+    top: 150px;
+}
+
+.temperature{
+    margin-top: 180px;
+    margin-left: 200px;
+    font-size: 45px;
+}
+
+.up2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 180px;
+    left: 800px;
+    cursor: pointer;
+}
+
+.down2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 210px;
+    left: 800px;
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+.gray_title5{
+    font-size: 15px;
+    color: #707070;
+    position: absolute;
+    left: 950px;
+    top: 150px;
+}
+
+.disks{
+    margin-top: 180px;
+    margin-left: 230px;
+    font-size: 45px;
+    z-index: 2;
+}
+
+.up3{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 180px;
+    left: 1000px;
+    cursor: pointer;
+}
+
+.down3{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 210px;
+    left: 1000px;
+    cursor: pointer;
+}
+
+.gray_title6{
+    font-size: 15px;
+    color: #707070;
+    position: absolute;
+    left: 1100px;
+    top: 150px;
+}
+
+.switch1{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    cursor: pointer;
+}
+
+.gray_title7{
+    font-size: 15px;
+    color: #707070;
+    position: absolute;
+    left: 1250px;
+    top: 150px;
+}
+
+.switch2{
+    position: absolute;
+    left: 320px;
+    top: 200px;
+    cursor: pointer;
+}
+
+.gray_title8{
+    font-size: 15px;
+    color: #707070;
+    position: absolute;
+    left: 1450px;
+    top: 810px;
+}
+
+.switch3{
+    position: absolute;
+    left: 1495px;
+    top: 860px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.gray_title9{
+    font-size: 15px;
+    color: #707070;
+    position: absolute;
+    left: 850px;
+    top: 810px;
+}
+
+.color1{
+    width: 40px;
+    height: 40px;
+    background-color: #262626;
+    border-radius: 50px;
+    position: absolute;
+    top: 850px;
+    left: 820px;
+    cursor: pointer;
+}
+
+.color2{
+    width: 40px;
+    height: 40px;
+    background-color: #EFEFEF;
+    border-radius: 50px;
+    position: absolute;
+    top: 850px;
+    left: 870px;
+    cursor: pointer;
+}
+
+
+.color3{
+    width: 40px;
+    height: 40px;
+    background-color: #E6DDD0;
+    border-radius: 50px;
+    position: absolute;
+    top: 850px;
+    left: 920px;
+    cursor: pointer;
+}
+
+
